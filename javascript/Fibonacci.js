@@ -9,5 +9,6 @@ function FibSeries(Num) {
       return fibArray;
 }
 
-FibSeries = FibSeries(4)
+Num = 10
+FibSeries = FibSeries(Num)
 console.log(FibSeries)
