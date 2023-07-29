@@ -5,6 +5,7 @@ function SumOfNumbers(TotalNum) {
     }
     return(ans)
 }
+
 TotalNum = 100
 answer = SumOfNumbers(TotalNum)
 console.log("Sum of "+TotalNum+" number is "+answer)
