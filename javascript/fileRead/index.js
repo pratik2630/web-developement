@@ -18,8 +18,13 @@ fs.readFile("a.txt","utf-8",function callback(err,data) {
 })
 */
 
+
 // file read using arrow function
-fs.readFile("a.txt","utf-8",(err,data)=> {
+fs.readFile("a.txt","utf-8",(err,data) => {
     console.log(data)
-    
 })
+
+//Random number generation
+var x = Math.floor(Math.random() * 10000)
+console.log(x)
+
